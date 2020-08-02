@@ -36,7 +36,9 @@ if version_tuple < (3, 5):
   sys.exit(1)
 
 # Change PYTHONPATH to include plaso so that we can get the version.
-sys.path.insert(0, '.')
+#sys.path.insert(0, '.')
+#sys.path.insert(0,'C:\Users\aryta\Documents\GitHub\plaso')
+sys.path.insert(1,'\\Documents\\GitHub\\plaso')
 
 import plaso  # pylint: disable=wrong-import-position
 
